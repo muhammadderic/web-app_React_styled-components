@@ -23,7 +23,7 @@ export default function Header() {
               Get Started for Free
             </Button>
           </div>
-          <Image src="https://picsum.photos/200/300" hg='250px' />
+          <Image src="https://picsum.photos/300/300" hg='250px' />
         </Grid>
       </Container>
     </StyledHeader>
