@@ -1,7 +1,8 @@
-import { Image, Logo, LogoContainer, Nav, StyledHeader } from "../styled/Header.styled"
+import { Logo, LogoContainer, Nav, StyledHeader } from "../styled/Header.styled"
 import { Container } from "../styled/Container.styled"
 import { Button } from "../styled/Button.styled"
 import { Grid } from "../styled/Grid.styled"
+import { Image } from "../styled/Image.styled"
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
           </LogoContainer>
           <Button>Try It Free</Button>
         </Nav>
-        <Grid>
+        <Grid cells={"2fr 1fr"}>
           <div>
             <h1>Lorem ipsum dolor sit amet.</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, dolorem neque quis repudiandae animi cum iste? Magni alias libero natus tenetur delectus in quam a ipsa repudiandae, veritatis, odit dolorum.</p>
